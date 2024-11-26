@@ -24,7 +24,7 @@ export default function RootLayout({
             <div className="flex items-center justify-between h-16">
               <nav className="flex items-center space-x-6">
                 <Link href="/" className="text-xl font-semibold">
-                  Our Team
+                  Mon-crew
                 </Link>
                 <div className="hidden md:flex items-center space-x-4">
                   <Link href="/" className="text-sm text-neutral-600 hover:text-neutral-900">
