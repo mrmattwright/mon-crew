@@ -45,7 +45,7 @@ export default function RootLayout({
         </main>
         <footer className="border-t border-neutral-200 py-8 mt-8">
           <div className="container mx-auto px-4 text-center text-sm text-neutral-600">
-            Made with 🫂 from your CTO.
+            Made with 🫂 from your <a href="https://github.com/mrmattwright" target="_blank" rel="noopener noreferrer" className="text-neutral-600 hover:text-neutral-900">CTO</a>.
           </div>
         </footer>
       </body>

@@ -11,10 +11,10 @@ export default function HomePage() {
           TEAM SHOWCASE
         </div>
         <h1 className="text-5xl font-bold tracking-tight">
-          Meet our incredible team
+          Hire one of our incredible team
         </h1>
-        <p className="text-xl text-neutral-600 max-w-2xl">
-          Although our startup journey has come to an end, we want to celebrate the incredible individuals who made it all possible.
+        <p className="text-xl text-neutral-600">
+          Although our startup journey has come to an end we want to celebrate the incredible humans who made it all possible. Everyone listed here is approachable for work and comes highly recommended.
         </p>
       </div>
 
@@ -30,7 +30,7 @@ export default function HomePage() {
                   <div>
                     <h2 className="text-xl font-semibold mb-2">{member.name}</h2>
                     <p className="text-sm text-neutral-600 mb-4">{member.role}</p>
-                    <p className="text-neutral-600">{member.bio}</p>
+                    
                   </div>
                 </div>
               </CardContent>
@@ -39,30 +39,26 @@ export default function HomePage() {
         ))}
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-8">
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-6 pt-8">
         <Card className="bg-white/50 backdrop-blur-sm border-neutral-200">
           <CardContent className="p-6">
             <div className="space-y-4">
               <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-blue-50">
                 <Briefcase className="h-5 w-5 text-blue-700" />
               </div>
-              <h3 className="text-xl font-semibold">Our Mission</h3>
+              <h3 className="text-xl font-semibold">What happened?</h3>
               <p className="text-neutral-600">
-                We set out to revolutionize the industry with innovative solutions and unwavering dedication to excellence.
+                Well...it&apos;s a long story. We sent the following message to all our customers:
               </p>
-            </div>
-          </CardContent>
-        </Card>
-        <Card className="bg-white/50 backdrop-blur-sm border-neutral-200">
-          <CardContent className="p-6">
-            <div className="space-y-4">
-              <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-blue-50">
-                <Award className="h-5 w-5 text-blue-700" />
-              </div>
-              <h3 className="text-xl font-semibold">Our Values</h3>
+
               <p className="text-neutral-600">
-                Built on the foundations of transparency, innovation, and putting our users first in everything we do.
+                &ldquo;Montoux was founded to bring fresh, effective, and innovative solutions to actuarial science, empowering insurers and actuaries worldwide. Recently, we have encountered a challenging situation due to a legal claim from an actuarial systems provider alleging that Montoux has improperly utilized proprietary information. We categorically deny all allegations of wrongdoing. Our solutions have been independently developed through dedicated research, advanced technology, and a deep commitment to ethical business practices.&rdquo;
               </p>
+
+              <p className="text-neutral-600">
+                That resulted in the unfortunate decision to wind down the company because of the cost of fighting this case in the US (running into millions of US Dolllars).           
+              </p>
+
             </div>
           </CardContent>
         </Card>
