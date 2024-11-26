@@ -1,9 +1,8 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
-import { Search } from 'lucide-react'
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+
 
 const inter = Inter({ subsets: ['latin'] })
 
