@@ -36,8 +36,18 @@ const SkillBadge: React.FC<SkillBadgeProps> = ({ skill }) => {
       bgColor = 'bg-green-100';
       textColor = 'text-green-800';
       break;
-    case 'LLMs':
-      icon = <svg viewBox="0 0 24 24" className="w-4 h-4 mr-1" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm-1-5h2v2h-2zm0-8h2v6h-2z"/></svg>;
+    case 'AI':
+      icon = <svg viewBox="0 0 24 24" className="w-4 h-4 mr-1" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z"></path></svg>
+      bgColor = 'bg-red-100';
+      textColor = 'text-red-800';
+      break;
+    case 'Design':
+      icon = <svg viewBox="0 0 24 24" className="w-4 h-4 mr-1" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 0 0-5.78 1.128 2.25 2.25 0 0 1-2.4 2.245 4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.128Zm0 0a15.998 15.998 0 0 0 3.388-1.62m-5.043-.025a15.994 15.994 0 0 1 1.622-3.395m3.42 3.42a15.995 15.995 0 0 0 4.764-4.648l3.876-5.814a1.151 1.151 0 0 0-1.597-1.597L14.146 6.32a15.996 15.996 0 0 0-4.649 4.763m3.42 3.42a6.776 6.776 0 0 0-3.42-3.42"></path></svg>
+      bgColor = 'bg-purple-100';
+      textColor = 'text-purple-800';
+      break;
+    case 'UX':
+      icon = <svg viewBox="0 0 24 24" className="w-4 h-4 mr-1" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"></path></svg>
       bgColor = 'bg-purple-100';
       textColor = 'text-purple-800';
       break;

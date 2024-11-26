@@ -34,7 +34,7 @@ export default function RootLayout({
               </nav>
               <div className="flex items-center space-x-4">
                 <Button variant="outline" size="sm">
-                  Contact
+                  <a href="mailto:matt@opioinc.com">Contact</a>
                 </Button>
               </div>
             </div>

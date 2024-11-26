@@ -18,8 +18,8 @@ export interface TeamMember {
 
 export const teamMembers: TeamMember[] = [
   {
-    id: "dan-t",
-    name: "Dan T",
+    id: "dan",
+    name: "Dan",
     role: "Senior Software Engineer",
     email: "mahathun.online@gmail.com",
     linkedin: "https://linkedin.com/in/dan-mahavithana",
@@ -34,45 +34,96 @@ export const teamMembers: TeamMember[] = [
     cv: "/cvs/Resume-DanMahavithana.pdf",
     testimonials: [
       {
-        quote: "Just saying 'Fullstack' vastly understates the breadth of Dan's capabilities. He's a brilliant engineer, picks up new tech easily, is curious about how things are put together and then will go and and build....and importantly deploy something that works and is useful",
+        quote: "Just saying 'Fullstack' vastly understates the breadth of Dan's capabilities. He's a brilliant engineer, picks up new tech easily, is curious about how things are put together and then will go and build....and importantly deploy something that works and is useful",
         author: "Matt W (CTO)"
       }
     ],
-    skills: ["TypeScript", "NodeJS", "Python", "React", "LLMs"]
+    skills: ["TypeScript", "NodeJS", "Python", "React", "AI"]
   },
   {
-    id: "jo-t",
-    name: "Jo T",
+    id: "jo",
+    name: "Jo",
     role: "Intermediate Software Engineer",
-    email: "jo.t@montoux.com",
-    linkedin: "https://linkedin.com/in/jo-t",
+    email: "jotregidga@gmail.com",
+    linkedin: "https://www.linkedin.com/in/jo-tregidga/",
     github: "",
     bio: "Full stack",
-    cv: "/cvs/Resume-JoT.pdf",
+    cv: "",
     testimonials: [
       {
         quote: "Our team's dedication and creativity were unmatched. I'm grateful for the opportunity to have worked with such talented individuals.",
-        author: "Matt W"
+        author: "Matt W (CTO)"
       }
     ],
     skills: ["TypeScript", "NodeJS", "React"]
   },
   {
-    id: "'glynn'",
-    name: "Glynn Foster",
+    id: "glynn",
+    name: "Glynn",
     role: "Technical PM",
-    email: "glynn.foster@montoux.com",
-    linkedin: "https://linkedin.com/in/glynn-foster",
-    github: "https://github.com/glynn-foster",
-    bio: "The man can do anything. Product management, design, development..customer support and mentoring.",
+    email: "glynnfoster@me.com",
+    linkedin: "https://www.linkedin.com/in/glynnfoster/",
+    github: "",
+    bio: "TODO",
     cv: "/cvs/Resume-GlynnFoster.pdf",
+    testimonials: [
+      {
+        quote: "The man can do anything. Product management, design, development..customer support and mentoring. Hire this person.",
+        author: "Matt W (CTO)"
+      }
+    ],
+    skills: ["Python"]
+  },
+  {
+    id: "glen",
+    name: "Glen",
+    role: "Tech Lead, Full Stack",
+    email: "glen.peek@icloud.com",
+    linkedin: "https://www.linkedin.com/in/glenpeek/",
+    github: "",
+    bio: "TODO",
+    cv: "",
     testimonials: [
       {
         quote: "This startup allowed me to push the boundaries of design and create experiences that truly resonated with our users.",
         author: "Matt W"
       }
     ],
-    skills: ["Python", "Go"]
+    skills: ["TypeScript", "NodeJS", "React", "AI"]
+  },
+  {
+    id: "simon-t",
+    name: "Simon",
+    role: "Senior Software Engineer",
+    email: "simon@simontegg.com",
+    linkedin: "https://www.linkedin.com/in/simon-t-408a89244/",
+    github: "",
+    bio: "TODO",
+    cv: "",
+    testimonials: [
+      {
+        quote: "This startup allowed me to push the boundaries of design and create experiences that truly resonated with our users.",
+        author: "Matt W"
+      }
+    ],
+    skills: ["TypeScript", "NodeJS", "React"]
+  },
+  {
+    id: "asher",
+    name: "Asher",
+    role: "Senior Product Designer",
+    email: "asherhutchings@gmail.comm",
+    linkedin: "https://www.linkedin.com/in/asher-hutchings-501bb241/",
+    github: "",
+    bio: "TODO",
+    cv: "",
+    testimonials: [
+      {
+        quote: "This startup allowed me to push the boundaries of design and create experiences that truly resonated with our users.",
+        author: "Matt W"
+      }
+    ],
+    skills: ["Design", "UX"]
   }
 ];
 
