@@ -13,7 +13,9 @@ export interface TeamMember {
   linkedin: string;
   github: string;
   cv: string;
+  skills: string[];
 }
+
 export const teamMembers: TeamMember[] = [
   {
     id: "dan-t",
@@ -35,7 +37,8 @@ export const teamMembers: TeamMember[] = [
         quote: "Just saying 'Fullstack' vastly understates the breadth of Dan's capabilities. He's a brilliant engineer, picks up new tech easily, is curious about how things are put together and then will go and and build....and importantly deploy something that works and is useful",
         author: "Matt W (CTO)"
       }
-    ]
+    ],
+    skills: ["TypeScript", "NodeJS", "Python", "React", "LLMs"]
   },
   {
     id: "jo-t",
@@ -51,12 +54,13 @@ export const teamMembers: TeamMember[] = [
         quote: "Our team's dedication and creativity were unmatched. I'm grateful for the opportunity to have worked with such talented individuals.",
         author: "Matt W"
       }
-    ]
+    ],
+    skills: ["TypeScript", "NodeJS", "React"]
   },
   {
     id: "'glynn'",
     name: "Glynn Foster",
-    role: "Technial PM",
+    role: "Technical PM",
     email: "glynn.foster@montoux.com",
     linkedin: "https://linkedin.com/in/glynn-foster",
     github: "https://github.com/glynn-foster",
@@ -67,7 +71,8 @@ export const teamMembers: TeamMember[] = [
         quote: "This startup allowed me to push the boundaries of design and create experiences that truly resonated with our users.",
         author: "Matt W"
       }
-    ]
+    ],
+    skills: ["Python", "Go"]
   }
 ];
 

@@ -2,6 +2,7 @@ import { teamMembers, TeamMember } from '../../data/team'
 import Link from 'next/link'
 import { Card, CardContent } from "@/components/ui/card"
 import { ArrowLeft, Quote } from 'lucide-react'
+import SkillBadge from '@/components/skill-badge'
 
 export async function generateStaticParams() {
   return teamMembers.map((member) => ({
@@ -33,8 +34,12 @@ export default function TeamMemberPage({ params }: { params: { id: string } }) {
 
       <Card className="bg-white/50 backdrop-blur-sm border-neutral-200">
         <CardContent className="p-8">
-          <div className="space-y-6">
-            <h2 className="text-2xl font-semibold">About</h2>
+          <div className="space-y-6">            
+            <div className="flex flex-wrap gap-2 my-4">
+              {member.skills.map((skill) => (
+                <SkillBadge key={skill} skill={skill} />
+              ))}
+            </div>
             <div 
               className="text-neutral-600 prose prose-neutral max-w-none  space-y-4"
               dangerouslySetInnerHTML={{ __html: member.bio }}

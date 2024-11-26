@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { teamMembers } from './data/team'
 import { Card, CardContent } from "@/components/ui/card"
 import { Users, Briefcase } from 'lucide-react'
+import SkillBadge from '@/components/skill-badge'
 
 export default function HomePage() {
   return (
@@ -14,7 +15,7 @@ export default function HomePage() {
           Hire one of our incredible team
         </h1>
         <p className="text-xl text-neutral-600">
-          Although our <a href="https://montoux.com" target="_blank" rel="noopener noreferrer" className="text-blue-800 hover:text-neutral-900">Montoux</a> startup journey has come to an end we want to celebrate the incredible humans who made it all possible. Everyone listed here is approachable for work and comes highly recommended.
+          Our <a href="https://montoux.com" target="_blank" rel="noopener noreferrer" className="text-blue-800 hover:text-neutral-900">Montoux</a> startup journey has come to an end. We want to celebrate the incredible humans who made it all possible. Everyone listed here is approachable for work and comes highly recommended.
         </p>
       </div>
 
@@ -30,7 +31,11 @@ export default function HomePage() {
                   <div>
                     <h2 className="text-xl font-semibold mb-2">{member.name}</h2>
                     <p className="text-sm text-neutral-600 mb-4">{member.role}</p>
-                    
+                    <div className="flex flex-wrap gap-2 mb-4">
+                      {member.skills.map((skill) => (
+                        <SkillBadge key={skill} skill={skill} />
+                      ))}
+                    </div>
                   </div>
                 </div>
               </CardContent>
@@ -48,7 +53,7 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-semibold">What happened?</h3>
               <p className="text-neutral-600">
-                Well...it&apos;s a long story. We sent the following message to all our customers:
+                Well...it&apos;s a long story, but here&apos;s a short version. We sent the following message to all our customers:
               </p>
 
               <p className="text-neutral-600">
