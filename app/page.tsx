@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { teamMembers } from './data/team'
 import { Card, CardContent } from "@/components/ui/card"
-import { Users, Briefcase, Award } from 'lucide-react'
+import { Users, Briefcase } from 'lucide-react'
 
 export default function HomePage() {
   return (
@@ -14,7 +14,7 @@ export default function HomePage() {
           Hire one of our incredible team
         </h1>
         <p className="text-xl text-neutral-600">
-          Although our startup journey has come to an end we want to celebrate the incredible humans who made it all possible. Everyone listed here is approachable for work and comes highly recommended.
+          Although our <a href="https://montoux.com" target="_blank" rel="noopener noreferrer" className="text-blue-800 hover:text-neutral-900">Montoux</a> startup journey has come to an end we want to celebrate the incredible humans who made it all possible. Everyone listed here is approachable for work and comes highly recommended.
         </p>
       </div>
 
@@ -56,7 +56,7 @@ export default function HomePage() {
               </p>
 
               <p className="text-neutral-600">
-                That resulted in the unfortunate decision to wind down the company because of the cost of fighting this case in the US (running into millions of US Dolllars).           
+                That resulted in the unfortunate decision to wind down the company because of the cost of fighting this case in the US (running into millions of US Dolllars).          
               </p>
 
             </div>
