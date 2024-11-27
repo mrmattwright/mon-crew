@@ -103,7 +103,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/simon-t-408a89244/",
     github: "",
     bio: "TODO",
-    cv: "",
+    cv: "/cvs/simon-tegg-CV.pdf",
     testimonials: [
       {
         quote: "This startup allowed me to push the boundaries of design and create experiences that truly resonated with our users.",
