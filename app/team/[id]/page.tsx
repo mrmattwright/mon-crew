@@ -92,7 +92,7 @@ export default function TeamMemberPage({ params }: { params: { id: string } }) {
                 <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-blue-100">
                   <Quote className="h-5 w-5 text-blue-700" />
                 </div>
-                <blockquote className="text-lg text-neutral-700 italic">
+                <blockquote className="text-lg text-neutral-700 italic pb-3">
                   {testimonial.quote}
                 </blockquote>
               </div>

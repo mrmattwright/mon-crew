@@ -47,11 +47,15 @@ export const teamMembers: TeamMember[] = [
     email: "jotregidga@gmail.com",
     linkedin: "https://www.linkedin.com/in/jo-tregidga/",
     github: "",
-    bio: "Full stack",
-    cv: "",
+    bio: `
+      <p className="mb-4">At Montoux, Jo brought a refreshing blend of technical acumen and a collaborative spirit to our development team. As a Web Developer and Front End Engineer, Jo played a key role in rebuilding our actuarial platform, utilizing TypeScript and React to revamp and optimize the architecture. With a sharp eye for detail Jo worked side by side without deisgner to realise their designs in pixel perfect detail. She also was heavily involved adoption of X-state for state management.</p>
+      <p className="mb-4"> Jo didn't just build software; she built an environment of inclusivity and continuous improvement. Leveraging AWS services like DynamoDB and S3, and implementing cloud infrastructure with Terraform, Jo made significant contributions to making our deployment process reliable and efficient, and released the software that she built! </p>
+      <p className="mb-4"> Jo's knack for leadership went beyond technical contributions. She was an active participant in agile ceremonies, helping to foster a collaborative culture and keep the team on track. Jo's drive to continuously learn, paired with her dedication to team cohesion, made her a standout developer that any hiring manager would be fortunate to have on their team.</p>
+    `,
+    cv: "/cvs/Jo-Tregidga-CV.pdf",
     testimonials: [
       {
-        quote: "Our team's dedication and creativity were unmatched. I'm grateful for the opportunity to have worked with such talented individuals.",
+        quote: "Hard working, dilligent, willing to ask questions and learn new things. Jo got involved in so many areas of the business and always produced high quality work.",
         author: "Matt W (CTO)"
       }
     ],
@@ -124,6 +128,23 @@ export const teamMembers: TeamMember[] = [
       }
     ],
     skills: ["Design", "UX"]
+  },
+  {
+    id: "greg",
+    name: "Greg",
+    role: "Senior Engineer",
+    email: "greg.lowe@gmail.com",
+    linkedin: "https://www.linkedin.com/in/greg-lowe-a76741b8/",
+    github: "",
+    bio: "TODO",
+    cv: "",
+    testimonials: [
+      {
+        quote: "If you want a thing to run fast, without errors and that to also be a simple thing to maintain, then Greg is your man.",
+        author: "Matt W"
+      }
+    ],
+    skills: ["Go"]
   }
 ];
 
