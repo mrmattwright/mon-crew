@@ -102,12 +102,17 @@ export const teamMembers: TeamMember[] = [
     email: "simon@simontegg.com",
     linkedin: "https://www.linkedin.com/in/simon-t-408a89244/",
     github: "",
-    bio: "TODO",
+    bio: `
+      <p className="mb-4">Simon is a considerate expert. He took charge of our React/TypeScript frontend, tackling challenges that required deep technical expertise and a strategic approach.</p>
+      <p className="mb-4">Simon architected our client solutions using the 'strangler' pattern, allowing new features to be delivered  atop legacy systems under tight deadlines we had with AWS, all without compromising code quality.</p>
+      <p className="mb-4">He also introduced atomic design principles to streamline the development process, enhancing both efficiency and scalability. He managed to balance fixing techncal debt really well with innovating on our product and is always shipping</p>
+      <p className="mb-4">Simon didn’t just contribute technically; he also played a crucial role in setting product direction alongside product managers and designers, and he mentored intermediate and junior developers, helping them grow into more effective team members.</p>
+    `,
     cv: "/cvs/simon-tegg-CV.pdf",
     testimonials: [
       {
-        quote: "This startup allowed me to push the boundaries of design and create experiences that truly resonated with our users.",
-        author: "Matt W"
+        quote: "A kind, considerate and expert developer. Anyone that adds Simon to the team isn't just getting a great developer, but they're getting a force multiplier for the whole team.",
+        author: "Matt W (CTO)"
       }
     ],
     skills: ["TypeScript", "NodeJS", "React"]
@@ -120,7 +125,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/asher-hutchings-501bb241/",
     github: "",
     bio: "TODO",
-    cv: "",
+    cv: "/cvs/Asher-Hutchings-Resume.pdf",
     testimonials: [
       {
         quote: "This startup allowed me to push the boundaries of design and create experiences that truly resonated with our users.",
