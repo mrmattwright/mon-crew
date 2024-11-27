@@ -68,11 +68,15 @@ export const teamMembers: TeamMember[] = [
     email: "glynnfoster@me.com",
     linkedin: "https://www.linkedin.com/in/glynnfoster/",
     github: "",
-    bio: "TODO",
+    bio: `
+      <p className="mb-4">The actuarial domain is a complex one to build a product in. It requires technical expertise, and ability to understand a complex business domain and a way to look through that to see a better path, a better way of doing things, a promised land. After that it takes careful thought on how to execute on that vision. That's Glynn.</p>
+      <p className="mb-4">Glynn in some sense <i>is</i> the product for Montoux. He's the one that can see the bigger picture, and help us understand the domain and the users. He also guided, mentored and supported the team to deliver on this.</p>
+      <p className="mb-4">He did customer support, onboarded clients and ran complex ETL processes for our clients. Stop reading now and go hire this man before anyone else does.</p>
+    `,
     cv: "/cvs/Resume-GlynnFoster.pdf",
     testimonials: [
       {
-        quote: "The man can do anything. Product management, design, development..customer support and mentoring. Hire this person.",
+        quote: "The man can do anything. Product management, design, development..customer support and mentoring. I'm really going to miss working with him.",
         author: "Matt W (CTO)"
       }
     ],
@@ -85,12 +89,16 @@ export const teamMembers: TeamMember[] = [
     email: "glen.peek@icloud.com",
     linkedin: "https://www.linkedin.com/in/glenpeek/",
     github: "",
-    bio: "TODO",
+    bio: `
+      <p className="mb-4">Startups need people like Glen, they just don't work without them. He'll take a business problem, and build a team, then build a product to solve it. He'll also lead by example, pick up any language (frontend, backend, AI) and build something simple that will work.</p>
+      <p className="mb-4">I think people that are in Glen's team are some of the happiest and most productive engineers I've seen. They gel, they're respectful of each other and critically they get stuff done.</p>
+      <p className="mb-4">Glen makes that happen, the world needs more Glen.</p>
+    `,
     cv: "",
     testimonials: [
       {
-        quote: "This startup allowed me to push the boundaries of design and create experiences that truly resonated with our users.",
-        author: "Matt W"
+        quote: "A CTO in the making. Glen is a great developer, and a great leader. He's always thinking about the product, the business and the users. He's runs the engineering team, retros and keeps the team humming, cohesive and productive. He's also just really fun to work with - people love working with Glen. That says a lot of a leader.",
+        author: "Matt W (CTO)"
       }
     ],
     skills: ["TypeScript", "NodeJS", "React", "AI"]
