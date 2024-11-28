@@ -20,28 +20,35 @@ export default function HomePage() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {teamMembers.map((member) => (
-          <Link href={`/team/${member.id}`} key={member.id}>
-            <Card className="h-full hover:shadow-lg transition-shadow duration-300 bg-white/50 backdrop-blur-sm border-neutral-200">
-              <CardContent className="p-6">
-                <div className="space-y-4">
-                  <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-blue-50">
-                    <Users className="h-5 w-5 text-blue-700" />
-                  </div>
-                  <div>
-                    <h2 className="text-xl font-semibold mb-2">{member.name}</h2>
-                    <p className="text-sm text-neutral-600 mb-4">{member.role}</p>
-                    <div className="flex flex-wrap gap-2 mb-4">
-                      {member.skills.map((skill) => (
-                        <SkillBadge key={skill} skill={skill} />
-                      ))}
+        {teamMembers
+          .filter(member => member.visible)
+          .map((member) => (
+            <Link href={`/team/${member.id}`} key={member.id}>
+              <Card className="h-full hover:shadow-lg transition-shadow duration-300 bg-white/50 backdrop-blur-sm border-neutral-200">
+                <CardContent className="p-6">
+                  <div className="space-y-4">
+                    <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-blue-50">
+                      <Users className="h-5 w-5 text-blue-700" />
+                    </div>
+                    <div>
+                      <h2 className="text-xl font-semibold mb-2">{member.name}</h2>
+                      <p className="text-sm text-neutral-600 mb-4">{member.role}</p>
+                      <div className="flex flex-wrap gap-2 mb-4">
+                        {member.skills.map((skill) => (
+                          <SkillBadge key={skill} skill={skill} />
+                        ))}
+                      </div>
+                    </div>
+                    <div className="flex flex-col justify-end h-full">
+                    <p className="text-xs text-neutral-500">
+                        Available: {member.available.toLocaleDateString('en-US', { day: '2-digit', month: 'short', year: 'numeric' })}
+                    </p>
                     </div>
                   </div>
-                </div>
-              </CardContent>
-            </Card>
-          </Link>
-        ))}
+                </CardContent>
+              </Card>
+            </Link>
+          ))}
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-1 gap-6 pt-8">

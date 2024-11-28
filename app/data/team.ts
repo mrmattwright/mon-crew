@@ -14,6 +14,8 @@ export interface TeamMember {
   github: string;
   cv: string;
   skills: string[];
+  available: Date;
+  visible: boolean;
 }
 
 export const teamMembers: TeamMember[] = [
@@ -38,7 +40,9 @@ export const teamMembers: TeamMember[] = [
         author: "Matt W (CTO)"
       }
     ],
-    skills: ["TypeScript", "NodeJS", "Python", "React", "AI"]
+    skills: ["TypeScript", "NodeJS", "Python", "React", "AI"],
+    available: new Date("2024-12-01"),
+    visible: true
   },
   {
     id: "jo",
@@ -59,7 +63,9 @@ export const teamMembers: TeamMember[] = [
         author: "Matt W (CTO)"
       }
     ],
-    skills: ["TypeScript", "NodeJS", "React"]
+    skills: ["TypeScript", "NodeJS", "React"],
+    available: new Date("2024-12-01"),
+    visible: true
   },
   {
     id: "glynn",
@@ -80,7 +86,9 @@ export const teamMembers: TeamMember[] = [
         author: "Matt W (CTO)"
       }
     ],
-    skills: ["Python"]
+    skills: ["Python"],
+    available: new Date("2024-12-01"),
+    visible: true
   },
   {
     id: "glen",
@@ -101,7 +109,9 @@ export const teamMembers: TeamMember[] = [
         author: "Matt W (CTO)"
       }
     ],
-    skills: ["TypeScript", "NodeJS", "React", "AI"]
+    skills: ["TypeScript", "NodeJS", "React", "AI"],
+    available: new Date("2024-12-01"),
+    visible: true
   },
   {
     id: "simon-t",
@@ -123,7 +133,9 @@ export const teamMembers: TeamMember[] = [
         author: "Matt W (CTO)"
       }
     ],
-    skills: ["TypeScript", "NodeJS", "React"]
+    skills: ["TypeScript", "NodeJS", "React"],
+    available: new Date("2024-12-01"),
+    visible: true
   },
   {
     id: "asher",
@@ -140,7 +152,9 @@ export const teamMembers: TeamMember[] = [
         author: "Matt W"
       }
     ],
-    skills: ["Design", "UX"]
+    skills: ["Design", "UX"],
+    available: new Date("2024-12-01"),
+    visible: true
   },
   {
     id: "greg",
@@ -148,6 +162,25 @@ export const teamMembers: TeamMember[] = [
     role: "Senior Engineer",
     email: "greg.lowe@gmail.com",
     linkedin: "https://www.linkedin.com/in/greg-lowe-a76741b8/",
+    github: "",
+    bio: "Greg has a book on his desk. It's called <a href='https://craftinginterpreters.com/'>'Crafting Interpreters'</a>. It didn't just sit there gathering dust. He used that book and built the core of our actuarial runtime in Go.",
+    cv: "",
+    testimonials: [
+      {
+        quote: "If you want a thing to run fast, without errors and that to also be a simple thing to maintain, then Greg is your man.",
+        author: "Matt W"
+      }
+    ],
+    skills: ["Go"],
+    available: new Date("2025-02-01"),
+    visible: true
+  },
+  {
+    id: "devon",
+    name: "Devon",
+    role: "Senior Engineer",
+    email: "",
+    linkedin: "",
     github: "",
     bio: "TODO",
     cv: "",
@@ -157,7 +190,9 @@ export const teamMembers: TeamMember[] = [
         author: "Matt W"
       }
     ],
-    skills: ["Go"]
+    skills: ["Rust", "Go", "Python"],
+    available: new Date("2025-02-01"),
+    visible: false
   }
 ];
 
