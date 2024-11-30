@@ -33,7 +33,7 @@ export const teamMembers: TeamMember[] = [
       <p className="mb-4">He wasn't afraid to roll up his sleeves and dive into technical decision-making, creating robust and scalable systems.</p>
       <p className="mb-4">Beyond his impressive technical chops, Dan was also a fantastic mentor and collaborator. He loved sharing knowledge with junior staff and ensured that the entire team thrived, not just in terms of tech skills, but also in creating an environment that was supportive and fun.</p>
     `,
-    cv: "/cvs/Resume-DanMahavithana.pdf",
+    cv: "/cvs/dan-mahavithana-resume.pdf",
     testimonials: [
       {
         quote: "Just saying 'Fullstack' vastly understates the breadth of Dan's capabilities. He's a brilliant engineer, picks up new tech easily, is curious about how things are put together and then will go and build....and importantly deploy something that works and is useful",
