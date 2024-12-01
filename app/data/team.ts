@@ -163,7 +163,10 @@ export const teamMembers: TeamMember[] = [
     email: "greg.lowe@gmail.com",
     linkedin: "https://www.linkedin.com/in/greg-lowe-a76741b8/",
     github: "",
-    bio: "Greg has a book on his desk. It's called <a href='https://craftinginterpreters.com/'>'Crafting Interpreters'</a>. It didn't just sit there gathering dust. He used that book and built the core of our actuarial runtime in Go.",
+    bio: `<p className="mb-4">Greg has a book on his desk. It's called <a href='https://craftinginterpreters.com/'>'Crafting Interpreters'</a>. It didn't just sit there gathering dust. He used that book to build the core of our actuarial runtime in Go.</p>
+    <p className="mb-4">It takes a whole career to understand that the search for simplicity in engineering is how to build things that last and scale. Building the simpliest thing to solve a problem isn't always easy, but that's Greg's starting point. He'll try very hard to understand the domain and what the real use case is before starting and he's not afraid to keep asking questions until he does understand what and "why" something needs to be built.</p>
+    <p className="mb-4">Once he starts, he's relentless.</p>
+    `,
     cv: "",
     testimonials: [
       {
@@ -186,7 +189,7 @@ export const teamMembers: TeamMember[] = [
     cv: "",
     testimonials: [
       {
-        quote: "If you want a thing to run fast, without errors and that to also be a simple thing to maintain, then Greg is your man.",
+        quote: "If you want a thing to run fast, without errors and that to also be a simple thing to maintain, then Devon is your man.",
         author: "Matt W"
       }
     ],
