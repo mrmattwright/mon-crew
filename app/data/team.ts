@@ -144,12 +144,18 @@ export const teamMembers: TeamMember[] = [
     email: "asherhutchings@gmail.comm",
     linkedin: "https://www.linkedin.com/in/asher-hutchings-501bb241/",
     github: "",
-    bio: "TODO",
+    bio: `
+      <p className="mb-4">Actuarial science is a complex domain, full of math, jargon and odd business processes imposed by the constraints of the past, regulation or just terrible system design. It's hard to design a system that caters for actuaries mental models, but shows them a new simplier more maintable way of working. But that's what Asher does.</p>
+      
+      <p className="mb-4">Asher is a considerate designer, and will take time to think through and try several concepts before settling on something that will work. He'll then refine that taking away things until the design is as simple as possible.</p>
+      <p className="mb-4">He's also a great listener and collaborator, working with product managment and the dev team to ensure that his vision for the product realized and tweaking it through testing it himself.</p>
+
+    `,
     cv: "/cvs/Asher-Hutchings-Resume.pdf",
     testimonials: [
       {
-        quote: "This startup allowed me to push the boundaries of design and create experiences that truly resonated with our users.",
-        author: "Matt W"
+        quote: "Asher is always user focused, cutting through a complex domain ending in beautiful, simple and usable designs.",
+        author: "Matt W - (CTO)"
       }
     ],
     skills: ["Design", "UX"],
