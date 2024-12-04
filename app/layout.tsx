@@ -2,8 +2,9 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
-
-
+import { inject } from '@vercel/analytics';
+ 
+inject();
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
