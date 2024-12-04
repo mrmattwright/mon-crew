@@ -2,10 +2,8 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
-import { inject } from '@vercel/analytics';
- 
-inject();
 const inter = Inter({ subsets: ['latin'] })
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
   title: 'MonCrew',
@@ -43,6 +41,7 @@ export default function RootLayout({
         </header>
         <main className="flex-grow container mx-auto px-4 py-8">
           {children}
+          <Analytics />
         </main>
         <footer className="border-t border-neutral-200 py-8 mt-8">
           <div className="container mx-auto px-4 text-center text-sm text-neutral-600">
